@@ -180,7 +180,7 @@ export default {
             .find((t) => t.name === newTicker.name)
             .graph.push(data.USD);
           this.tickers.find((t) => t.name === newTicker.name).price = data.USD;
-        }, 10);
+        }, 12000);
         this.ticker = "";
       }
     },
